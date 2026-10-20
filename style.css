@@ -1,0 +1,36 @@
+.posicao{
+    text-align: center;
+    .fonte_h1{
+      font-size: 250%;
+      color: blue;
+    }
+    .fonte_h2{
+        font-size: 0.7em;
+        color: red;
+    }
+}
+body{
+    background-color: gray;
+    border: 14px groove black;
+    border-radius: 1%;
+    padding-bottom: 46vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.caixa{
+    width: 300px;
+    height: 5vh;
+    padding: 10px;
+    border: 5px solid black;
+    text-align: center;
+    background-color: blue;
+}
+.principal{
+    font-size: 20px;
+}
+.interno{
+    font-size: 2rem;
+}
